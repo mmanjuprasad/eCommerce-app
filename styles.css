@@ -212,3 +212,14 @@
   .btn-shop{
   
   }
+
+
+  a:link:active, a:visited:active {
+    color: black;
+  }
+
+  a:link, a:visited {
+    color: black;
+    text-decoration: underline;
+    /* cursor:auto;  */
+  }
