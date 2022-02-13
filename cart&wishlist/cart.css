@@ -1,0 +1,111 @@
+
+
+/* card component  */
+
+.footer{
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    align-items: center;
+}
+
+.footer button{
+    color: #0346fcbd;
+    font-size: 1.1rem;
+    border:none;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0.2rem;
+    cursor: pointer;
+}
+
+
+.footer .button-icon {
+    width: 40%;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .footer .button-icon button {
+    color: rgba(0, 0, 0, 0.6);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    font-weight: normal;
+    
+  }
+
+
+
+.card-hz{
+    max-width: 350px;
+    border: 1px solid #f7f7f8;
+    border-radius: 0.5rem;
+    box-shadow:rgba(0,0,0,0.3)0px 3px 8px ;
+  }
+
+  .card-hz .card-header{
+    display: flex;
+    /* flex-basis: 70%; */
+    /* overflow: hidden; */
+
+  }
+  
+  .card-hz .card-header-img {
+    object-fit: cover;
+    flex-basis: 50%;
+    width: 80px;
+    height: 100px;
+    width: 50%;
+    border-radius: 0 3px 3px 0;
+    font-size: small;
+  }
+  .card-header-text {
+    flex-grow: 1;
+    padding: 0.7rem 1rem;
+    line-height: 1.7;
+    font-weight: 500;
+  }
+ 
+.position-relative{
+  position: relative;
+  display: inline-block;
+}
+
+
+.image-fit{
+  object-fit: cover;
+}
+
+/* checkout button  */
+
+.container__components-holder{
+    width: 90%;
+    height: fit-content;
+    margin-top: 2rem;
+  
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    /* background-color: rgba(101, 150, 27, 0.753) */
+  }
+  
+
+  .link{
+    box-sizing:border-box;
+    text-decoration:none;
+    padding: 0.5rem 1rem;
+    
+  }
+  .link-primary{
+    background-color: rgba(0, 88, 189, 0.911);
+    border-radius: 0.5rem;
+    color:white;
+    border: none;
+    width: 10rem;
+    height: 3rem;
+    font-weight: 700;
+    font-size: large;
+  }
