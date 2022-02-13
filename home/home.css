@@ -178,6 +178,37 @@
 
   }
 
-  img{
-      width: 110rem;
+
+.img-shop{
+  width: 100%;
+  object-fit: cover;
+}
+
+  .container-shop{
+    position: relative;
+    width: 100%;
+  }
+
+
+  .container-shop .btn-shop{
+  position: absolute;
+  top: 12%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(66, 66, 66);
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  }
+
+  .container-shop .btn-shop:hover {
+    background-color: black;
+  }
+
+  .btn-shop{
+  
   }
