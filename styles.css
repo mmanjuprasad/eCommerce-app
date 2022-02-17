@@ -60,6 +60,7 @@
   .nav-title{
     padding-left: 1rem;
     font-weight: 500;
+    
   }
   .nav-container-endsec{
     display: flex;
@@ -220,6 +221,9 @@
 
   a:link, a:visited {
     color: black;
-    text-decoration: underline;
     /* cursor:auto;  */
+  }
+
+  .no-ul{
+    text-decoration: none;
   }

@@ -246,6 +246,9 @@
 
   a:link, a:visited {
     color: black;
-    text-decoration: underline;
     /* cursor:auto;  */
+  }
+
+  .no-ul{
+    text-decoration: none;
   }
