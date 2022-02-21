@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/product listing/styles.css">
     <link rel="stylesheet" href="/Authentication/authentication.css">
     <script src="https://kit.fontawesome.com/428bba23b3.js"crossorigin="anonymous"></script>
+  
 </head>
 <body>
 
@@ -49,7 +50,11 @@
             <div class="login-inputs">
                 <div class="input-items">
                     <label for="text"><i class="far fa-user"></i></label>
-                    <input type="name" placeholder="Name">
+                    <input type="name" placeholder="First Name">
+                </div>
+                <div class="input-items">
+                    <label for="text"><i class="far fa-user"></i></label>
+                    <input type="name" placeholder="LastName">
                 </div>
                 <div class="input-items">
                     <label for="text"><i class="far fa-envelope"></i></label>
@@ -57,8 +62,12 @@
                 </div>
                 <div class="input-items">
                     <label for="text"><i class="fas fa-lock"></i></label>
-                    <input type="password" placeholder="Password">
+                    <input type="password" placeholder="Password" id="password">
                 </div>
+                <div class="input-items-1">
+                    <input type="checkbox" id="toggle-password" onclick="toggleClicked()">Show Password
+                </div>
+                
                 <div class="input-items-1">
                     <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
                     <label for="vehicle3"> I Agree to all terms and Conditions</label><br><br>
@@ -71,6 +80,6 @@
         </div>
 
         
-        
+        <script src="/script.js"></script>
 </body>
 </html>

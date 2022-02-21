@@ -34,6 +34,9 @@
                 <a href="/Authentication/login.html">
                     <span><i class="fas fa-user-circle fa-lg"></i></span>
                 </a>
+                <a href="/index.html">
+                    <span><i class="fas fa-sign-out-alt fa-lg"></i></span>
+                </a>
                 
             </section>
         </header>
@@ -45,21 +48,22 @@
  <div class="flex">
     <div class="container">
         <h3 class="">Categories</h3>
+        <button class="link link-only" type="reset" id="checkAll" onclick="uncheckAll();">Clear All</button>
         <div class="checkbox">
             <label for="checkbox-1">
                 <input id="checkbox-1" name="checkbox" type="checkbox" checked>
                 Mens 
             </label>
             <label for="checkbox-2">
-                <input id="checkbox-2" name="checkbox" type="checkbox">
+                <input id="checkbox-1" name="checkbox" type="checkbox">
                 Womens 
             </label>
             <label for="checkbox-3">
-                <input id="checkbox-3" name="checkbox" type="checkbox">
+                <input id="checkbox-1" name="checkbox" type="checkbox">
                 Kids
             </label>
             <label for="checkbox-4">
-                <input id="checkbox-4" name="checkbox" type="checkbox">
+                <input id="checkbox-1" name="checkbox" type="checkbox">
                 New arrivals
             </label>
         </div>
@@ -71,11 +75,11 @@
                 1K - 5K
             </label>
             <label for="checkbox-2">
-                <input id="checkbox-2" name="checkbox" type="checkbox">
+                <input id="checkbox-1" name="checkbox" type="checkbox">
                 5K - 10K 
             </label>
             <label for="checkbox-2">
-                <input id="checkbox-2" name="checkbox" type="checkbox">
+                <input id="checkbox-1" name="checkbox" type="checkbox">
                 10K - 20K 
             </label>
         </div>
@@ -110,7 +114,7 @@
                 </div>
                 <div class="footer flex">
                     <div class="button-text">
-                        <button>Buy now</button>
+                        <button>Add to cart</button>
                         <button>Wishlist</button>
                     </div>
                     <div class="button-icon flex">
@@ -138,7 +142,7 @@
                 </div>
                 <div class="footer flex">
                     <div class="button-text">
-                        <button>Buy now</button>
+                        <button>Add to cart</button>
                         <button>Wishlist</button>
                     </div>
                     <div class="button-icon flex">
@@ -166,7 +170,7 @@
                 </div>
                 <div class="footer flex">
                     <div class="button-text">
-                        <button>Buy now</button>
+                        <button>Add to cart</button>
                         <button>Wishlist</button>
                     </div>
                     <div class="button-icon flex">
@@ -194,13 +198,14 @@
                 </div>
                 <div class="footer flex">
                     <div class="button-text">
-                        <button>Buy now</button>
+                        <button>Add to cart</button>
                         <button>Wishlist</button>
                     </div>
                     <div class="button-icon flex">
                         <span><i class="far fa-heart"></i></span>
                         <span><i class="fas fa-share-alt"></i></span>
                         <span><i class="fas fa-ellipsis-v"></i></span>
+                        
                     </div>
                 </div>
             </div>
@@ -230,7 +235,11 @@
 
     
 
- <script src="./script.js"></script>
+ <script src="./script.js">
+     function uncheckAll(){
+  $('input[type="checkbox"]:checked').prop('checked',false);
+}
+ </script>
 
     
 </body>
