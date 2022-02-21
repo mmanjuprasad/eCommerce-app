@@ -252,3 +252,12 @@
   .no-ul{
     text-decoration: none;
   }
+
+  .link-only{
+    text-decoration:none;
+    padding: 0.5rem 1rem;
+    border:none;
+    background-color: transparent;
+    font-weight: 600;
+    margin: 1rem;
+  }

@@ -48,21 +48,22 @@
  <div class="flex">
     <div class="container">
         <h3 class="">Categories</h3>
+        <button class="link link-only" type="reset" id="checkAll" onclick="uncheckAll();">Clear All</button>
         <div class="checkbox">
             <label for="checkbox-1">
                 <input id="checkbox-1" name="checkbox" type="checkbox" checked>
                 Mens 
             </label>
             <label for="checkbox-2">
-                <input id="checkbox-2" name="checkbox" type="checkbox">
+                <input id="checkbox-1" name="checkbox" type="checkbox">
                 Womens 
             </label>
             <label for="checkbox-3">
-                <input id="checkbox-3" name="checkbox" type="checkbox">
+                <input id="checkbox-1" name="checkbox" type="checkbox">
                 Kids
             </label>
             <label for="checkbox-4">
-                <input id="checkbox-4" name="checkbox" type="checkbox">
+                <input id="checkbox-1" name="checkbox" type="checkbox">
                 New arrivals
             </label>
         </div>
@@ -74,11 +75,11 @@
                 1K - 5K
             </label>
             <label for="checkbox-2">
-                <input id="checkbox-2" name="checkbox" type="checkbox">
+                <input id="checkbox-1" name="checkbox" type="checkbox">
                 5K - 10K 
             </label>
             <label for="checkbox-2">
-                <input id="checkbox-2" name="checkbox" type="checkbox">
+                <input id="checkbox-1" name="checkbox" type="checkbox">
                 10K - 20K 
             </label>
         </div>
@@ -234,7 +235,11 @@
 
     
 
- <script src="./script.js"></script>
+ <script src="./script.js">
+     function uncheckAll(){
+  $('input[type="checkbox"]:checked').prop('checked',false);
+}
+ </script>
 
     
 </body>

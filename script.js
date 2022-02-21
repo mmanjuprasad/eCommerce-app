@@ -26,3 +26,14 @@ function toggleClicked() {
     password.type = "password";
   }
 }
+
+
+
+const checkBtn = document.getElementById("checkAll");
+const checkbx = document.getElementById("checkbox-1");
+
+function uncheckAll(){
+  $('input[type="checkbox"]:checked').prop('checked',false);
+}
+
+
