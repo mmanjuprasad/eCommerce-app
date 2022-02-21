@@ -36,6 +36,9 @@
                 <a href="/Authentication/login.html">
                     <span><i class="fas fa-user-circle fa-lg"></i></span>
                 </a>
+                <a href="/index.html">
+                    <span>logout</span>
+                </a>
                 
             </section>
         </header>
@@ -51,14 +54,19 @@
                     src="https://images.unsplash.com/photo-1626497764746-6dc36546b388?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=726&q=80"
                     alt="Card Header Image" srcset="" />
                   <div class="card-header-text">
-                    <h4>Our Changing Planet</h4>
-                    <p class="sub-heading">by Kurt Wagner</p>
+                    <h4>Mens shirt</h4>
+                    <p class="sub-heading">Quantity:</p>
                   </div>
+                  <form>
+                    <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
+                    <input type="number" id="number" value="0" />
+                    <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</div>
+                  </form>
                 </div>
             </div>
             <div class="footer flex">
                 <div class="button-text">
-                    <!-- <button>Read</button> -->
+                    <button>Wishlist</button>
                     <button>Remove</button>
                 </div>
                 <div class="button-icon flex">
@@ -78,14 +86,19 @@
                     src="https://images.unsplash.com/photo-1626497764746-6dc36546b388?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=726&q=80"
                     alt="Card Header Image" srcset="" />
                   <div class="card-header-text">
-                    <h4>Our Changing Planet</h4>
-                    <p class="sub-heading">by Kurt Wagner</p>
+                    <h4>Louis philippe</h4>
+                    <p class="sub-heading">Quantity:</p>
                   </div>
+                  <form>
+                    <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
+                    <input type="number" id="number" value="0" />
+                    <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</div>
+                  </form>
                 </div>
             </div>
             <div class="footer flex">
                 <div class="button-text">
-                    <!-- <button>Read</button> -->
+                    <button>wishlist</button>
                     <button>Remove</button>
                 </div>
                 <div class="button-icon flex">
@@ -97,7 +110,14 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container flex">
+        <div class="container">
+            <h1 class="h4 pd">Price Details</h1>
+            <h2 class="h4 pd text-left">Price    <span class="text-right">300</span></h2>
+            <h2 class="h4 pd">Discount   <span>100</span><h2>
+            <h2 class="h4 pd">Delivery   <span>30</span> </h2>
+            <h1 class="h4 pd ">Total amount <span>430</span></h1>
+        </div>
         <div class="container__components-holder">
             <button class="link link-primary">Payment </button>
 
@@ -132,6 +152,6 @@
 
 
 
-
+<script src="/script.js"></script>
 
 </html>
